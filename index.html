@@ -1,445 +1,756 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
-   <head>
-      <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="theme-color" content="#ffffff">
-      <link rel="profile" href="https://gmpg.org/xfn/11">
-      <style>
-.body,html{
-	font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size:16px;
-    line-height:1.6;
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
-}
-.container{
-    max-width:728px!important;
-    margin:0 auto!important;
-    padding:10px;
-    background:#fff
-}
-.content-area{
-    float:left;
-    width:100%;
-    height:auto;
-    padding:15px 0 0
-}
-.header-search,.header-search #search-form{
-    position:relative;
-    width:100%
-}
-.header-search #search-form input{
-    height:50px;
-    width:100%;
-    padding-right:125px;
-    padding-left:15px;
-    border:none;
-    border:1px solid #e6e6e6;
-    border-radius:0;
-    outline:none;
-    -webkit-appearance:none;
-    font-size:16px;
-    background-color:#fff!important;
-    box-shadow:none!important
-}
-.header-search #search-form button,.header-search #search-form button:hover{
-    line-height:28px;
-    position:absolute;
-    right:0;
-    top:0;
-    width:125px;
-    height:50px;
-    cursor:pointer;
-    color:#fff;
-    border:none;
-    background:#333;
-    font-size:24px
-}
-#logo{
-    text-align:center;
-    margin:30px 0;
-    font-weight:bold
-}
-.site-title{
-    font-size:2em;
-    text-transform:uppercase
-}
-.site-description{
-    font-variant:small-caps
-}
-#breadcrumbs,.section-title{
-    text-transform:uppercase
-}
-#breadcrumbs{
-    padding-bottom:10px;
-    border-bottom:1px solid #e6e6e6;
-    border-top:1px solid #e6e6e6;
-    font-size:13px;
-    color:#999;
-    padding-top:10px
-}
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .body,
+      html {
+        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      .container {
+        max-width: 728px !important;
+        margin: 0 auto !important;
+        padding: 10px;
+        background: #fff;
+      }
+      .content-area {
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 15px 0 0;
+      }
+      .header-search,
+      .header-search #search-form {
+        position: relative;
+        width: 100%;
+      }
+      .header-search #search-form input {
+        height: 50px;
+        width: 100%;
+        padding-right: 125px;
+        padding-left: 15px;
+        border: none;
+        border: 1px solid #e6e6e6;
+        border-radius: 0;
+        outline: none;
+        -webkit-appearance: none;
+        font-size: 16px;
+        background-color: #fff !important;
+        box-shadow: none !important;
+      }
+      .header-search #search-form button,
+      .header-search #search-form button:hover {
+        line-height: 28px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 125px;
+        height: 50px;
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        background: #333;
+        font-size: 24px;
+      }
+      #logo {
+        text-align: center;
+        margin: 30px 0;
+        font-weight: bold;
+      }
+      .site-title {
+        font-size: 2em;
+        text-transform: uppercase;
+      }
+      .site-description {
+        font-variant: small-caps;
+      }
+      #breadcrumbs,
+      .section-title {
+        text-transform: uppercase;
+      }
+      #breadcrumbs {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e6e6e6;
+        border-top: 1px solid #e6e6e6;
+        font-size: 13px;
+        color: #999;
+        padding-top: 10px;
+      }
 
+      .div-comments-support,
+      .naa-songs-f-image {
+        text-align: center;
+        margin-right: 0;
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 15px;
+      }
+      article,
+      b,
+      body,
+      div,
+      em,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      header,
+      html,
+      img,
+      li,
+      p,
+      span,
+      ul {
+        font-size: 100%;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        border: 0;
+        outline: 0;
+        background: 0 0;
+      }
+      article,
+      footer,
+      header,
+      main {
+        display: block;
+      }
+      a:link,
+      a:active,
+      a:visited {
+        text-decoration: none;
+        color: #000;
+        outline: 0;
+      }
+      #content a:link,
+      #content a:active,
+      #content a:visited,
+      button:focus,
+      input:focus,
+      input:hover#content a:link,
+      #content a:active,
+      #content a:visited,
+      button:focus,
+      input:focus,
+      input:hover#content a:link,
+      #content a:active,
+      #content a:visited,
+      button:focus,
+      input:focus,
+      input:hover {
+        text-decoration: none;
+        color: #da3114;
+        outline: 0;
+      }
+      h1 {
+        font-size: 1.8em;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-size: 16px;
+      }
+      .clearfix:after,
+      .clearfix:before {
+        display: table;
+        content: "";
+      }
+      .clearfix,
+      .clearfix:after {
+        clear: both;
+      }
+      .entry-thumbnail {
+        margin-right: 7px;
+        border: 2px solid #fff;
+        box-shadow: 0 2px 5px #ccc;
+        height: 100%;
+        width: 100%;
+        background-color: #ccc;
+        align-items: center;
+      }
+      .entry-title h1 {
+        text-align: center;
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
 
-.div-comments-support,.naa-songs-f-image{
-    text-align:center;
-    margin-right:0;
-    border-bottom:1px solid #e6e6e6;
-    padding-bottom:15px
-}
-article,b,body,div,em,footer,form,h1,h2,h3,header,html,img,li,p,span,ul{
-    font-size:100%;
-    margin:0;
-    padding:0;
-    vertical-align:baseline;
-    border:0;
-    outline:0;
-    background:0 0
-}
-article,footer,header,main{
-    display:block;
-}
-a:link,a:active,a:visited{
-    text-decoration:none;
-    color:#000;
-    outline:0
-}
-#content a:link,#content a:active,#content a:visited,button:focus,input:focus,input:hover#content a:link,#content a:active,#content a:visited,button:focus,input:focus,input:hover#content a:link,#content a:active,#content a:visited,button:focus,input:focus,input:hover{
-    text-decoration:none;
-    color:#da3114;
-    outline:0
-}
-h1{
-    font-size:1.8em;
-    text-transform:uppercase
-}
-h2{
-    font-size:16px
-}
-.clearfix:after,.clearfix:before{
-    display:table;
-    content:''
-}
-.clearfix,.clearfix:after{
-    clear:both
-}
-.entry-thumbnail{
-    margin-right: 7px;
-    border:2px solid #fff;
-    box-shadow:0 2px 5px #ccc;
-    height:100%;
-    width:100%;
-    background-color:#ccc;
-    align-items: center;
-}
-.entry-title h1{
-    text-align:center;
-    white-space:normal;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    
-}
+      .entry-content h2 {
+        margin-bottom: 8px;
+        padding: 0px;
+      }
+      .entry-content p {
+        margin-bottom: 15px;
+        margin-top: 25px;
+        text-align: left;
+      }
 
-.entry-content h2{
-    margin-bottom:8px;
-    padding: 0px;
+      .main-content {
+        font-family: "Poppins", sans-serif;
+      }
 
-    
+      .entry-content ul {
+        border-top: 1px solid #e6e6e6;
+        padding-top: 20px;
+      }
+      .related-title,
+      .entry-content ul li,
+      .related-posts ul li {
+        font-size: 16px;
+        padding: 3px 0 3px 3px;
+        list-style-position: inside;
+      }
+      .related-posts h3 {
+        padding: 10px;
+      }
+      .entry-footer {
+        margin: 15px 0;
+      }
+      .entry-footer h3 {
+        font-size: 100%;
+        font-weight: 400;
+        display: inline;
+      }
+      .entry-content a:link,
+      .entry-content a:active,
+      .entry-content a:visited {
+        text-decoration: none;
+        color: #da3114;
+        line-height: 42px;
+        outline: 0;
+        font-size: 18px;
+      }
 
-}
-.entry-content p{
-    margin-bottom:15px;
-    margin-top:25px;
-    text-align:left;
-    background-color: lightgrey;
-}
-.entry-content ul{
-    border-top:1px solid #e6e6e6;
-    padding-top:20px
-}
-.related-title,.entry-content ul li,.related-posts ul li{
-    font-size:16px;
-    padding:3px 0 3px 3px;
-    list-style-position:inside
-}
-.related-posts h3{
-    padding:10px
-}
-.entry-footer{
-    margin:15px 0
-}
-.entry-footer h3{
-    font-size:100%;
-    font-weight:400;
-    display:inline
-}
-.entry-content a:link,.entry-content a:active,.entry-content a:visited{
-    text-decoration:none;
-    color:#da3114;
-    line-height:42px;
-    outline:0;
-    font-size:18px
-}
+      .lyrics-heading {
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: bolder;
+        font-color: #0a89c0 !important;
+        padding: 5px;
+        margin-bottom: 8px;
+      }
 
-.lyrics-heading {
-	font-size: 18px;
-	font-color:#0a89c0!important;
-	padding :5px;
-	margin-bottom: 8px;
-}
+      .lyrics-side {
+        border-bottom: 2px solid #76c20b;
+      }
 
-.lyrics-side{
-	border-left: 2px solid #76c20b;
-}
+      #site-bottom,
+      #site-bottom a:hover,
+      #site-bottom a:link,
+      #site-bottom a:visited {
+        font-size: 14px;
+        padding: 15px 0;
+        color: #999;
+      }
+      #site-bottom .copyright .left {
+        float: left;
+      }
+      #site-bottom .copyright .right {
+        float: right;
+      }
+      .div-comments-support {
+        height: 100px;
+        padding: 35px;
+        margin-top: 20px;
+        border: 1px solid #333;
+      }
+      .support-button {
+        background-color: #ccc;
+        border: none;
+        color: #fff;
+        padding: 5px 25px;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 0 0 0;
+        cursor: pointer;
+      }
+      @media only screen and (max-width: 479px) {
+        .header-search #search-form button,
+        .header-search #search-form button:hover {
+          width: 65px;
+        }
+        #site-bottom .copyright,
+        #site-bottom .copyright .left,
+        #site-bottom .copyright .right {
+          float: none;
+          text-align: center;
+        }
+        .header-search #search-form input {
+          padding-right: 75px;
+        }
 
-#site-bottom,#site-bottom a:hover,#site-bottom a:link,#site-bottom a:visited{
-    font-size:14px;
-    padding:15px 0;
-    color:#999
-}
-#site-bottom .copyright .left{
-    float:left
-}
-#site-bottom .copyright .right{
-    float:right
-}
-.div-comments-support{
-    height:100px;
-    padding:35px;
-    margin-top:20px;
-    border:1px solid #333
-}
-.support-button{
-    background-color:#ccc;
-    border:none;
-    color:#fff;
-    padding:5px 25px;
-    display:inline-block;
-    font-size:16px;
-    margin:10px 0 0 0;
-    cursor:pointer
-}
-@media only screen and (max-width:479px){
-    .header-search #search-form button,.header-search #search-form button:hover{
-        width:65px
-    }
-    #site-bottom .copyright,#site-bottom .copyright .left,#site-bottom .copyright .right{
-        float:none;
-        text-align:center
-    }
-    .header-search #search-form input{
-        padding-right:75px
-    }
-
-    #breadcrumbs{
-    padding-bottom:5px;
-    border-bottom:1px solid #e6e6e6;
-    border-top:1px solid #e6e6e6;
-    font-size:12px;
-    color:#999;
-    padding-top:5px
-}
-}
-</style>
-      <link rel="icon" href=" data:image/gif;base64,R0lGODlhEAAQAPL/AC80ODY7QEJJT0pQV11kayktMAAAACImKSH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgAIACwAAAAAEAAQAAAENBDJSatFJt/N6/nTd3RXYYanZBakBbwoELdeEMyqTVNCP/WCn28nGRiFAySxSCBMmk6mMwIAIfkECQoABgAsAAAFAA8ACwAAAyNouqz1LTJAFwW2Shl6Dt/GCYJFmqXYDOzCDm6rMkTt2kpNJAAh+QQFCgAFACwAAAcADwAJAAADHwha3K3AyRnqs6yGybMQF+iJnTSczTmkaGkSRArLRAIAOw==">
-      <title>Dirty Hari Songs Download - Naa Songs</title>
-      <link rel="canonical" href="/dirty-hari-2020.html">
-      <meta property="og:locale" content="en_US">
-      <meta property="og:type" content="article">
-      <meta property="og:title" content="Dirty Hari Songs Download - Naa Songs">
-      <meta property="og:description" content="Movie Name : Dirty Hari – (2020) Cast &amp; Crew : Shravan Reddy, Ruhani Sharma, Simrat Kaur Music : Mark K Robin Category : Telugu Movies Dirty Hari songs free download | Dirty Hari movie songs free download | Dirty Hari mp3 songs download 01 – Let&#8217;s Make Love 02 – 03 – 04 –&hellip;">
-      <meta property="og:url" content="/dirty-hari-2020.html">
-      <meta property="og:site_name" content="Naa Songs">
-      <meta property="article:tag" content="2020">
-      <meta property="article:tag" content="D">
-      <meta property="article:tag" content="Mark K Robin">
-      <meta property="article:tag" content="Ruhani Sharma">
-      <meta property="article:tag" content="Shravan Reddy">
-      <meta property="article:tag" content="Simrat Kaur">
-      <meta property="article:tag" content="Telugu">
-      <meta property="article:tag" content="Telugu Songs">
-      <meta property="article:tag" content="Telugu Songs Download">
-      <meta property="article:tag" content="top">
-      <meta property="article:section" content="Telugu New Songs">
-      <meta property="article:published_time" content="2020-07-24T11:50:23+05:30">
-      <meta property="article:modified_time" content="2020-07-28T04:39:35+05:30">
-      <meta property="og:updated_time" content="2020-07-28T04:39:35+05:30">
-      <meta property="og:image" content="/wp-content/uploads/2020/07/Dirty-Hari-Telugu-2020-Lets-Make-Love.jpg">
-      <meta property="og:image:secure_url" content="/wp-content/uploads/2020/07/Dirty-Hari-Telugu-2020-Lets-Make-Love.jpg">
-      <meta property="og:image:width" content="350">
-      <meta property="og:image:height" content="350">
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:description" content="Movie Name : Dirty Hari – (2020) Cast &amp; Crew : Shravan Reddy, Ruhani Sharma, Simrat Kaur Music : Mark K Robin Category : Telugu Movies Dirty Hari songs free download | Dirty Hari movie songs free download | Dirty Hari mp3 songs download 01 – Let&#8217;s Make Love 02 – 03 – 04 –&hellip;">
-      <meta name="twitter:title" content="Dirty Hari Songs Download - Naa Songs">
-      <meta name="twitter:image" content="/wp-content/uploads/2020/07/Dirty-Hari-Telugu-2020-Lets-Make-Love.jpg">
-   </head>
-   <body data-rsssl=1 class="post-template-default single single-post postid-55963 single-format-standard content-sidebar layout-content-sidebar" itemscope itemtype="http://schema.org/Blog">
-      <div id="page" class="container hfeed site clearfix">
-         <header>
-            <div class="header-search">
-               <form target="_blank" method="get" class="searchform" id="search-form" action="https://www.isongs.info/" role="search"><input type="search" class="search-field field" placeholder="Search …" value="" name="q" title="Search for:"><input type="hidden" name="label" value="telugu"><button name="" id="search">&#9834;</button></form>
+        #breadcrumbs {
+          padding-bottom: 5px;
+          border-bottom: 1px solid #e6e6e6;
+          border-top: 1px solid #e6e6e6;
+          font-size: 12px;
+          color: #999;
+          padding-top: 5px;
+        }
+      }
+    </style>
+    <link
+      rel="icon"
+      href=" data:image/gif;base64,R0lGODlhEAAQAPL/AC80ODY7QEJJT0pQV11kayktMAAAACImKSH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgAIACwAAAAAEAAQAAAENBDJSatFJt/N6/nTd3RXYYanZBakBbwoELdeEMyqTVNCP/WCn28nGRiFAySxSCBMmk6mMwIAIfkECQoABgAsAAAFAA8ACwAAAyNouqz1LTJAFwW2Shl6Dt/GCYJFmqXYDOzCDm6rMkTt2kpNJAAh+QQFCgAFACwAAAcADwAJAAADHwha3K3AyRnqs6yGybMQF+iJnTSczTmkaGkSRArLRAIAOw=="
+    />
+    <title>Dirty Hari Songs Download - Naa Songs</title>
+    <link rel="canonical" href="/dirty-hari-2020.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Dirty Hari Songs Download - Naa Songs" />
+    <meta
+      property="og:description"
+      content="Movie Name : Dirty Hari – (2020) Cast &amp; Crew : Shravan Reddy, Ruhani Sharma, Simrat Kaur Music : Mark K Robin Category : Telugu Movies Dirty Hari songs free download | Dirty Hari movie songs free download | Dirty Hari mp3 songs download 01 – Let&#8217;s Make Love 02 – 03 – 04 –&hellip;"
+    />
+    <meta property="og:url" content="/dirty-hari-2020.html" />
+    <meta property="og:site_name" content="Naa Songs" />
+    <meta property="article:tag" content="2020" />
+    <meta property="article:tag" content="D" />
+    <meta property="article:tag" content="Mark K Robin" />
+    <meta property="article:tag" content="Ruhani Sharma" />
+    <meta property="article:tag" content="Shravan Reddy" />
+    <meta property="article:tag" content="Simrat Kaur" />
+    <meta property="article:tag" content="Telugu" />
+    <meta property="article:tag" content="Telugu Songs" />
+    <meta property="article:tag" content="Telugu Songs Download" />
+    <meta property="article:tag" content="top" />
+    <meta property="article:section" content="Telugu New Songs" />
+    <meta
+      property="article:published_time"
+      content="2020-07-24T11:50:23+05:30"
+    />
+    <meta
+      property="article:modified_time"
+      content="2020-07-28T04:39:35+05:30"
+    />
+    <meta property="og:updated_time" content="2020-07-28T04:39:35+05:30" />
+    <meta
+      property="og:image"
+      content="/wp-content/uploads/2020/07/Dirty-Hari-Telugu-2020-Lets-Make-Love.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="/wp-content/uploads/2020/07/Dirty-Hari-Telugu-2020-Lets-Make-Love.jpg"
+    />
+    <meta property="og:image:width" content="350" />
+    <meta property="og:image:height" content="350" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:description"
+      content="Movie Name : Dirty Hari – (2020) Cast &amp; Crew : Shravan Reddy, Ruhani Sharma, Simrat Kaur Music : Mark K Robin Category : Telugu Movies Dirty Hari songs free download | Dirty Hari movie songs free download | Dirty Hari mp3 songs download 01 – Let&#8217;s Make Love 02 – 03 – 04 –&hellip;"
+    />
+    <meta
+      name="twitter:title"
+      content="Dirty Hari Songs Download - Naa Songs"
+    />
+    <meta
+      name="twitter:image"
+      content="/wp-content/uploads/2020/07/Dirty-Hari-Telugu-2020-Lets-Make-Love.jpg"
+    />
+  </head>
+  <body
+    data-rsssl="1"
+    class="post-template-default single single-post postid-55963 single-format-standard content-sidebar layout-content-sidebar"
+    itemscope
+    itemtype="http://schema.org/Blog"
+  >
+    <div id="page" class="container hfeed site clearfix">
+      <header>
+        <div class="header-search">
+          <form
+            target="_blank"
+            method="get"
+            class="searchform"
+            id="search-form"
+            action="https://www.isongs.info/"
+            role="search"
+          >
+            <input
+              type="search"
+              class="search-field field"
+              placeholder="Search …"
+              value=""
+              name="q"
+              title="Search for:"
+            /><input type="hidden" name="label" value="telugu" /><button
+              name=""
+              id="search"
+            >
+              &#9834;
+            </button>
+          </form>
+        </div>
+        <div
+          class="site-branding clearfix"
+          itemscope="itemscope"
+          itemtype="http://schema.org/Brand"
+        >
+          <div id="logo">
+            <div class="site-title" itemprop="name">
+              <meta itemprop="url" content="https://naasongs.co" />
+              <a href="https://naasongs.co" rel="home" data-wpel-link="internal"
+                >Mangolyrics.com</a
+              >
             </div>
-            <div class="site-branding clearfix" itemscope="itemscope" itemtype="http://schema.org/Brand">
-               <div id="logo">
-                  <div class="site-title" itemprop="name">
-                     <meta itemprop="url" content="https://naasongs.co">
-                     <a href="https://naasongs.co" rel="home" data-wpel-link="internal">Mangolyrics.com</a>
+            <div class="site-description" itemprop="description">
+              we provide lyrics
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="site-content" class="site-content">
+        <main id="main" class="site-main clearfix" role="main">
+          <p id="breadcrumbs">
+            <span
+              ><span
+                ><a href="/" data-wpel-link="internal">Home</a> »
+                <span class="breadcrumb_last" aria-current="page"
+                  >Olanjali Kuruvi Song Lyrics</span
+                ></span
+              ></span
+            >
+          </p>
+          <div id="primary" class="content-area">
+            <div id="content" class="single">
+              <article
+                id="/dirty-hari-2020.html"
+                class="post-55963 post type-post status-publish format-standard has-post-thumbnail hentry category-telugu-new-songs tag-7545 tag-d tag-mark-k-robin tag-ruhani-sharma tag-shravan-reddy tag-simrat-kaur tag-telugu tag-telugu-songs tag-telugu-songs-download tag-top entry"
+                itemscope="itemscope"
+                itemtype="http://schema.org/BlogPosting"
+                itemprop="blogPost"
+              >
+                <meta
+                  itemscope
+                  itemprop="mainEntityOfPage"
+                  itemtype="https://schema.org/WebPage"
+                  itemid="/dirty-hari-2020.html"
+                  content="Dirty Hari"
+                />
+                <div
+                  itemprop="author"
+                  itemscope
+                  itemtype="https://schema.org/Person"
+                >
+                  <meta itemprop="name" class="p-author" content="isongs" />
+                </div>
+                <div
+                  itemprop="publisher"
+                  itemscope
+                  itemtype="https://schema.org/Organization"
+                >
+                  <div
+                    itemprop="logo"
+                    itemscope
+                    itemtype="https://schema.org/ImageObject"
+                  >
+                    <meta
+                      itemprop="url"
+                      content="/wp-content/themes/naasongs-v2.1/assets/img/logo.jpg"
+                    />
+                    <meta itemprop="width" content="160" />
+                    <meta itemprop="height" content="90" />
                   </div>
-                  <div class="site-description" itemprop="description">we provide lyrics</div>
-               </div>
-            </div>
-         </header>
-         <div id="site-content" class="site-content">
-            <main id="main" class="site-main clearfix" role="main">
-               <p id="breadcrumbs"><span><span><a href="/" data-wpel-link="internal">Home</a> » <span class="breadcrumb_last" aria-current="page">Olanjali Kuruvi Song Lyrics</span></span></span></p>
-               <div id="primary" class="content-area">
-                  <div id="content" class="single">
-                     <article id="/dirty-hari-2020.html" class="post-55963 post type-post status-publish format-standard has-post-thumbnail hentry category-telugu-new-songs tag-7545 tag-d tag-mark-k-robin tag-ruhani-sharma tag-shravan-reddy tag-simrat-kaur tag-telugu tag-telugu-songs tag-telugu-songs-download tag-top entry" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                        <meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="/dirty-hari-2020.html" content="Dirty Hari">
-                        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
-                           <meta itemprop="name" class="p-author" content="isongs">
+                  <meta itemprop="name" content="Naa Songs" />
+                </div>
+                <meta
+                  itemprop="datePublished"
+                  class="dt-published"
+                  content="2020-07-24T17:20:23+05:30"
+                />
+                <meta
+                  itemprop="dateModified"
+                  class="dt-updated"
+                  content="2020-07-28T10:09:35+05:30"
+                />
+                <span class="h-entry">
+                  <div class="entry-content" itemprop="articleBody">
+                    <div class="entry-title">
+                      <h1 itemprop="headline">
+                        Olanjali Kuruvi Song Lyrics - 1983
+                      </h1>
+                    </div>
+                    <div itemscope itemtype="https://schema.org/MusicAlbum">
+                      <meta itemprop="name" content="Dirty Hari" />
+                      <meta itemprop="url" content="/dirty-hari-2020.html" />
+                      <meta itemprop="inLanguage" content="Kannada" />
+                      <div class="naa-songs-f-image">
+                        <img
+                          class="asyncImage entry-thumbnail"
+                          alt=" (Dirty Hari Movie songs)"
+                          title="Dirty Hari songs Download"
+                          src="https://1.bp.blogspot.com/-4jvON2XQFNs/XxLGqzVQ34I/AAAAAAAAAQg/LheLPVbxKrc4OB_e5eFWSPtdvuLL_7AgwCLcBGAsYHQ/s1280/be_kind_lyrics_halsey.jpg"
+                          itemprop="image"
+                        />
+                        <div class="description">
+                          <h2>Olanjali Kuruvi Song Lyrics - 1983</h2>
                         </div>
-                        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-                           <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-                              <meta itemprop="url" content="/wp-content/themes/naasongs-v2.1/assets/img/logo.jpg">
-                              <meta itemprop="width" content="160">
-                              <meta itemprop="height" content="90">
-                           </div>
-                           <meta itemprop="name" content="Naa Songs">
-                        </div>
-                        <meta itemprop="datePublished" class="dt-published" content="2020-07-24T17:20:23+05:30">
-                        <meta itemprop="dateModified" class="dt-updated" content="2020-07-28T10:09:35+05:30">
-                        <span class="h-entry">
-                           <div class="entry-content" itemprop="articleBody">
-                              <div class="entry-title">
-                                 <h1 itemprop="headline">Olanjali Kuruvi Song Lyrics - 1983</h1>
-                              </div>
-                              <div itemscope itemtype="https://schema.org/MusicAlbum">
-                                 <meta itemprop="name" content="Dirty Hari">
-                                 <meta itemprop="url" content="/dirty-hari-2020.html">
-                                 <meta itemprop="inLanguage" content="Kannada">
-                                 <div class="naa-songs-f-image">
-                                    <img class="asyncImage entry-thumbnail" alt=" (Dirty Hari Movie songs)" title="Dirty Hari songs Download" src="https://1.bp.blogspot.com/-4jvON2XQFNs/XxLGqzVQ34I/AAAAAAAAAQg/LheLPVbxKrc4OB_e5eFWSPtdvuLL_7AgwCLcBGAsYHQ/s1280/be_kind_lyrics_halsey.jpg" itemprop="image">
-                                    <div class="description">
-                                       <h2>Olanjali Kuruvi Song Lyrics - 1983 </h2>
-                                    </div>
-                                 </div>
-                                 <div class="clearfix"></div>
-                              </div>
-                              <div class="clearfix"></div>
-                              <p><b>Movie Name :</b> 1983 - (2014)<br>
-                              <b>Music :</b> Gopi Sundar<br>
-                              <b>Lyrics :</b> Hari Narayanan</p>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <p>
+                      <b>Movie Name :</b> 1983 - (2014)<br />
+                      <b>Music :</b> Gopi Sundar<br />
+                      <b>Lyrics :</b> Hari Narayanan
+                    </p>
 
-                              <p><em>Olanjali Kuruvi Lyrics – Olanjali Kuruvi Song is sung by P Jayachandran & Vani Jayaram, composed by Gopi Sunder with lyrics penned by Hari Narayanan.</em></p>
-                              <div class="main-content" style="text-align: left; ">
-                              	<div class="lyrics-heading lyrics-side">Olanjali Kuruvi Song Lyrics in English</div>
-                              	Olanjali kuruvi, ilam Kaattilaadi Varu nee..<br>
-                              	Koottukoodi kinungi, mizhippeeli melle thazhuki..<br>
-                              	Olenjaali kuruvee, ilam Kaattilaadi Varu nee..<br>
-                              	Koottukoodi kinungi, mizhippeeli melle thazhuki..<br>
+                    <p>
+                      <em
+                        >Olanjali Kuruvi Lyrics – Olanjali Kuruvi Song is sung
+                        by P Jayachandran & Vani Jayaram, composed by Gopi
+                        Sunder with lyrics penned by Hari Narayanan.</em
+                      >
+                    </p>
+                    <div class="main-content" style="text-align: left;">
+                      <div class="lyrics-heading lyrics-side">
+                        English Lyrics
+                      </div>
+                      Olanjali kuruvi, ilam Kaattilaadi Varu nee..<br />
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
+                      Olenjaali kuruvee, ilam Kaattilaadi Varu nee..<br />
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br /><br />
 
-                              	Cherumashithandu neetti vannaduthu ninnuvo..<br>
-                              	Manimadhuram nunayum kanavin mazhayilo…<br>
-                              	Nanayum njaanadhyamay..<br>
+                      Cherumashithandu neetti vannaduthu ninnuvo..<br />
+                      Manimadhuram nunayum kanavin mazhayilo…<br />
+                      Nanayum njaanadhyamay..<br />
 
-                              	Koottukoodi kinungi, mizhippeeli melle thazhuki..<br>
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
 
-                              	Nee nin Mizhikalil… ilaveyilil thiriyumaay varikayo…<br>
-                              	Janalazhivazhi pakarum… nanu naneyoru madhuram…<br>
-                              	Oru kudayude thanalilanayum neram… pozhiyum mazhayil..<br>
+                      Nee nin Mizhikalil… ilaveyilil thiriyumaay varikayo…<br /><br />
+                      Janalazhivazhi pakarum… nanu naneyoru madhuram…<br />
+                      Oru kudayude thanalilanayum neram… pozhiyum mazhayil..<br />
 
-                              	Koottukoodi kinungi, mizhippeeli melle thazhuki..<br>
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
 
-                              	Poonthen mozhikalaal… kurumani kuyilupol kurukuvaan…<br>
-                              	Kalichiriyude viralaal, thodukuriyidumazhakaay,<br>
-                              	Cheru kolussinte kilukilukkathhil, thaalam manassil nirayum..<br>
+                      Poonthen mozhikalaal… kurumani kuyilupol kurukuvaan…<br />
+                      Kalichiriyude viralaal, thodukuriyidumazhakaay,<br />
+                      Cheru kolussinte kilukilukkathhil, thaalam manassil
+                      nirayum..<br />
 
-                              	Koottukoodi kinungi, mizhippeeli melle thazhuki..<br>
-                              </div>
-                              <h2><b>Dirty Hari Songs free download</b> Keywords:</h2>
-                              <ul>
-                                 <li>Dirty Hari songs download from naasongs</li>
-                                 <li>Telugu movie Dirty Hari audio songs download</li>
-                                 <li>Dirty Hari 2020 movie songs download</li>
-                                 <li>Telugu new movie Dirty Hari songs download</li>
-                                 <li>Telugu movie songs download wiki</li>
-                                 <li>Dirty Hari Telugu songs free download 128 kbps</li>
-                                 <li>Film songs of Dirty Hari sensongs download</li>
-                                 <li>Dirty Hari Telugu movie full iSongs</li>
-                                 <li>Dirty Hari mp3 available so feel free to download</li>
-                                 <li>songs download zip file of Dirty Hari</li>
-                                 <li>Dirty Hari movie audio isongs songs high quality</li>
-                                 <li>free mp3 songs download of Dirty Hari</li>
-                                 <li>atozmp3 Dirty Hari original cd digital mp3 songs</li>
-                                 <li>Dirty Hari movie songs mp3 audio Tracks</li>
-                                 <li>Telugu movie Dirty Hari dj songs download</li>
-                                 <li>Telugu movie audio mp3 songs</li>
-                                 <li>Dirty Hari mp3 download, Dirty Hari movie songs</li>
-                                 <li>itunes and isongsdownload audio songs</li>
-                                 <li>doregama Dirty Hari individual songs download</li>
-                                 <li>www download Dirty Hari Telugu songs</li>
-                                 <li>Telugu songs of Dirty Hari naa songs com 2020</li>
-                                 <li>Dirty Hari audio cd rips download Lyrics</li>
-                                 <li>WWW.Dirty Hari Mp3 songs download in a single Zip</li>
-                                 <li>high quality Dirty Hari songs download</li>
-                                 <li>Dirty Hari Telugu movie audio mp3 audio songs</li>
-                                 <li>Telugu Movie Dirty Hari 2020 songs musical</li>
-                                 <li>Dirty Hari mp3 songs direct download Telugu movies</li>
-                              </ul>
-                           </div>
-                        </span>
-                        <div class="related-posts">
-                           <h3>Related Music Albums</h3>
-                           <ul class="clearfix">
-                              <div class="related-content">
-                                 <li><a href="/jagame-tantram-telugu-songs-2020.html" data-wpel-link="internal">Jagame Tantram</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/rgvs-power-star-song-2020.html" data-wpel-link="internal">RGV&#8217;s Power Star</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/parannajeevi-song-2020.html" data-wpel-link="internal">ParannaJeevi</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/aakaasam-nee-haddhu-ra-2020.html" data-wpel-link="internal">Aakaasam Nee Haddhu Ra</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/orey-bujjiga-songs-2020.html" data-wpel-link="internal">Orey Bujjiga</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/radhe-shyam-telugu-songs-2020.html" data-wpel-link="internal">Radhe Shyam</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/uma-maheswara-ugra-roopasya-songs-2020.html" data-wpel-link="internal">Uma Maheswara Ugra Roopasya</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/chuputoo-songs-2020.html" data-wpel-link="internal">Chuputoo</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/bhanumathi-ramakrishna-2020.html" data-wpel-link="internal">Bhanumathi Ramakrishna</a></li>
-                              </div>
-                              <div class="related-content">
-                                 <li><a href="/manasa-namaha-songs-2020.html" data-wpel-link="internal">Manasa Namaha</a></li>
-                              </div>
-                           </ul>
-                        </div>
-                     </article>
-                     <div class="clearfix"></div>
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
+                    </div>
+                    <div class="main-content" style="text-align: left;">
+                      <div class="lyrics-heading lyrics-side">
+                        English Lyrics
+                      </div>
+                      Olanjali kuruvi, ilam Kaattilaadi Varu nee..<br />
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
+                      Olenjaali kuruvee, ilam Kaattilaadi Varu nee..<br />
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br /><br />
+
+                      Cherumashithandu neetti vannaduthu ninnuvo..<br />
+                      Manimadhuram nunayum kanavin mazhayilo…<br />
+                      Nanayum njaanadhyamay..<br />
+
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
+
+                      Nee nin Mizhikalil… ilaveyilil thiriyumaay varikayo…<br /><br />
+                      Janalazhivazhi pakarum… nanu naneyoru madhuram…<br />
+                      Oru kudayude thanalilanayum neram… pozhiyum mazhayil..<br />
+
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
+
+                      Poonthen mozhikalaal… kurumani kuyilupol kurukuvaan…<br />
+                      Kalichiriyude viralaal, thodukuriyidumazhakaay,<br />
+                      Cheru kolussinte kilukilukkathhil, thaalam manassil
+                      nirayum..<br />
+
+                      Koottukoodi kinungi, mizhippeeli melle thazhuki..<br />
+                    </div>
+                    <h2><b>Dirty Hari Songs free download</b> Keywords:</h2>
+                    <ul>
+                      <li>Dirty Hari songs download from naasongs</li>
+                      <li>Telugu movie Dirty Hari audio songs download</li>
+                      <li>Dirty Hari 2020 movie songs download</li>
+                      <li>Telugu new movie Dirty Hari songs download</li>
+                      <li>Telugu movie songs download wiki</li>
+                      <li>Dirty Hari Telugu songs free download 128 kbps</li>
+                      <li>Film songs of Dirty Hari sensongs download</li>
+                      <li>Dirty Hari Telugu movie full iSongs</li>
+                      <li>Dirty Hari mp3 available so feel free to download</li>
+                      <li>songs download zip file of Dirty Hari</li>
+                      <li>Dirty Hari movie audio isongs songs high quality</li>
+                      <li>free mp3 songs download of Dirty Hari</li>
+                      <li>atozmp3 Dirty Hari original cd digital mp3 songs</li>
+                      <li>Dirty Hari movie songs mp3 audio Tracks</li>
+                      <li>Telugu movie Dirty Hari dj songs download</li>
+                      <li>Telugu movie audio mp3 songs</li>
+                      <li>Dirty Hari mp3 download, Dirty Hari movie songs</li>
+                      <li>itunes and isongsdownload audio songs</li>
+                      <li>doregama Dirty Hari individual songs download</li>
+                      <li>www download Dirty Hari Telugu songs</li>
+                      <li>Telugu songs of Dirty Hari naa songs com 2020</li>
+                      <li>Dirty Hari audio cd rips download Lyrics</li>
+                      <li>WWW.Dirty Hari Mp3 songs download in a single Zip</li>
+                      <li>high quality Dirty Hari songs download</li>
+                      <li>Dirty Hari Telugu movie audio mp3 audio songs</li>
+                      <li>Telugu Movie Dirty Hari 2020 songs musical</li>
+                      <li>
+                        Dirty Hari mp3 songs direct download Telugu movies
+                      </li>
+                    </ul>
                   </div>
-                  <div class="div-comments-support">Dirty Hari download FREE !!! <br>Need any help?<br><a class="support-button" href="mailto:naasongs@protonmail.com?subject = Dirty Hari" target="_blank" rel="noopener">Contact</a></div>
-               </div>
-            </main>
-         </div>
-         <footer id="footer" class="site-footer clearfix">
-            <div id="site-bottom" class="clearfix">
-               <div class="copyright">
-                  <div class="left">&copy; 2020 <a href="https://naasongs.co" title="Naa Songs | Telugu Mp3 Songs Free Download | Naasongs.com" rel="home" data-wpel-link="internal">Naa Songs</a>. All rights reserved.</div>
-                  <div class="right"><a href="/contact" data-wpel-link="internal">Contact</a> | <a href="/contact" data-wpel-link="internal">DMCA</a> | <a href="/contact" data-wpel-link="internal">T&amp;C</a></div>
-               </div>
+                </span>
+                <div class="related-posts">
+                  <h3>Related Music Albums</h3>
+                  <ul class="clearfix">
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/jagame-tantram-telugu-songs-2020.html"
+                          data-wpel-link="internal"
+                          >Jagame Tantram</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/rgvs-power-star-song-2020.html"
+                          data-wpel-link="internal"
+                          >RGV&#8217;s Power Star</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/parannajeevi-song-2020.html"
+                          data-wpel-link="internal"
+                          >ParannaJeevi</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/aakaasam-nee-haddhu-ra-2020.html"
+                          data-wpel-link="internal"
+                          >Aakaasam Nee Haddhu Ra</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/orey-bujjiga-songs-2020.html"
+                          data-wpel-link="internal"
+                          >Orey Bujjiga</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/radhe-shyam-telugu-songs-2020.html"
+                          data-wpel-link="internal"
+                          >Radhe Shyam</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/uma-maheswara-ugra-roopasya-songs-2020.html"
+                          data-wpel-link="internal"
+                          >Uma Maheswara Ugra Roopasya</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/chuputoo-songs-2020.html"
+                          data-wpel-link="internal"
+                          >Chuputoo</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/bhanumathi-ramakrishna-2020.html"
+                          data-wpel-link="internal"
+                          >Bhanumathi Ramakrishna</a
+                        >
+                      </li>
+                    </div>
+                    <div class="related-content">
+                      <li>
+                        <a
+                          href="/manasa-namaha-songs-2020.html"
+                          data-wpel-link="internal"
+                          >Manasa Namaha</a
+                        >
+                      </li>
+                    </div>
+                  </ul>
+                </div>
+              </article>
+              <div class="clearfix"></div>
             </div>
-         </footer>
+            <div class="div-comments-support">
+              Dirty Hari download FREE !!! <br />Need any help?<br /><a
+                class="support-button"
+                href="mailto:naasongs@protonmail.com?subject = Dirty Hari"
+                target="_blank"
+                rel="noopener"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </main>
       </div>
-      <script type='text/javascript' src='/wp-content/themes/naasongs-v2.1/js/script.js' async='async' defer='defer'></script><script>document.documentElement.className = 'js';</script><script type="text/javascript"> jQuery(document).ready( function() { jQuery.post( "/wp-admin/admin-ajax.php", { action : "entry_views", _ajax_nonce : "69dbfedc9b", post_id : 55963 } ); } ); </script>
-   </body>
+      <footer id="footer" class="site-footer clearfix">
+        <div id="site-bottom" class="clearfix">
+          <div class="copyright">
+            <div class="left">
+              &copy; 2020
+              <a
+                href="https://naasongs.co"
+                title="Naa Songs | Telugu Mp3 Songs Free Download | Naasongs.com"
+                rel="home"
+                data-wpel-link="internal"
+                >Naa Songs</a
+              >. All rights reserved.
+            </div>
+            <div class="right">
+              <a href="/contact" data-wpel-link="internal">Contact</a> |
+              <a href="/contact" data-wpel-link="internal">DMCA</a> |
+              <a href="/contact" data-wpel-link="internal">T&amp;C</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/naasongs-v2.1/js/script.js"
+      async="async"
+      defer="defer"
+    ></script>
+    <script>
+      document.documentElement.className = "js";
+    </script>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery.post("/wp-admin/admin-ajax.php", {
+          action: "entry_views",
+          _ajax_nonce: "69dbfedc9b",
+          post_id: 55963,
+        });
+      });
+    </script>
+  </body>
 </html>
