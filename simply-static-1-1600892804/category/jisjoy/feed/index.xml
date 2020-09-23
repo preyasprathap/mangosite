@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jisjoy &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Sat, 11 Jan 2020 19:06:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>jisjoy &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Etho Mazhayil Lyrics – Vijay Superum Pournamiyum – Vijay Yesudas, Shweta Mohan</title>
+		<link>./../../../2020/01/11/etho-mazhayil-lyrics-vijay-superum-pournamiyum-vijay-yesudas-shweta-mohan/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 11 Jan 2020 19:06:00 +0000</pubDate>
+				<category><![CDATA[ajuvarghese]]></category>
+		<category><![CDATA[asifali.aishwaryalekshmi]]></category>
+		<category><![CDATA[baluvarghese]]></category>
+		<category><![CDATA[jisjoy]]></category>
+		<category><![CDATA[malayalam]]></category>
+		<category><![CDATA[malayalamalbum]]></category>
+		<category><![CDATA[malayalamlyrics]]></category>
+		<category><![CDATA[princegeorge]]></category>
+		<category><![CDATA[renjipanicker]]></category>
+		<category><![CDATA[shwetamohan]]></category>
+		<category><![CDATA[siddique]]></category>
+		<category><![CDATA[vijayyesudas]]></category>
+		<guid isPermaLink="false">./../../../2020/01/11/etho-mazhayil-lyrics-vijay-superum-pournamiyum-vijay-yesudas-shweta-mohan/index.html</guid>
+
+					<description><![CDATA[Etho Mazhayil Lyrics – Vijay Superum Pournamiyum – Vijay Yesudas, Shweta Mohan Etho Mazhayil lyrics from Vijay Superum Pournamiyum starring Asif Ali and Aishwarya Lekshmi in the lead roles along with Balu Varghese, Siddique, Aju Varghese and Renji Panicker in supporting roles. Music for this song is composed by Prince George while lyrics were penned [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

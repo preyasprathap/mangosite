@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tips &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Thu, 16 Jan 2020 19:26:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>tips &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Gallan Kardi lyrics hindi</title>
+		<link>./../../../2020/01/16/gallan-kardi-lyrics-hindi/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 16 Jan 2020 19:26:00 +0000</pubDate>
+				<category><![CDATA[hardeep]]></category>
+		<category><![CDATA[jawaanijaaneman]]></category>
+		<category><![CDATA[jazzyb]]></category>
+		<category><![CDATA[jyoticatangri]]></category>
+		<category><![CDATA[mumzystranger]]></category>
+		<category><![CDATA[preetharpal]]></category>
+		<category><![CDATA[prem]]></category>
+		<category><![CDATA[punjabi]]></category>
+		<category><![CDATA[punjabilyrics]]></category>
+		<category><![CDATA[tips]]></category>
+		<guid isPermaLink="false">./../../../2020/01/16/gallan-kardi-lyrics-hindi/index.html</guid>
+
+					<description><![CDATA[Gallan Kardi lyrics from Jawaani Jaaneman Gallan Kardi Lyrics in Hindi from movie&#160;Jawaani Jaaneman&#160;sung by Jazzy B &#38; Jyotica Tangri. The song is written by Preet Harpal &#38; Mumzy Stranger, music composed by Prem &#38; Hardeep. This song is recreated from song&#160;Dil Lutiya, originally created by Sukshinder Shinda Preet Harpal &#38; Jazzy B. Starring Saif [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

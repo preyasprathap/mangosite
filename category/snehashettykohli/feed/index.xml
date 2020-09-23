@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>snehashettykohli &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Fri, 24 Jan 2020 17:02:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>snehashettykohli &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hermosa &#8211; Aastha Gill</title>
+		<link>./../../../2020/01/24/hermosa-aastha-gill/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 24 Jan 2020 17:02:00 +0000</pubDate>
+				<category><![CDATA[aasthagill]]></category>
+		<category><![CDATA[DSoldierz]]></category>
+		<category><![CDATA[punjabi]]></category>
+		<category><![CDATA[punjabilyrics]]></category>
+		<category><![CDATA[snehashettykohli]]></category>
+		<guid isPermaLink="false">./../../../2020/01/24/hermosa-aastha-gill/index.html</guid>
+
+					<description><![CDATA[HERMOSA LYRICS – AASTHA GILL Hermosa Lyrics by Aastha Gill and D Soldierz is latest Punjabi song sung and music given by them. Hermosa song lyrics are written by D Soldierz and video is directed by Sneha Shetty Kohli. Hermosa Song DetailLyrics by: D SoldierzSinger: Aastha Gill, D SoldierzComposer: D Soldierz, Aastha Gill Hermosa – [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

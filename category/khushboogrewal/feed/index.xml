@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>khushboogrewal &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Thu, 02 Jan 2020 07:42:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>khushboogrewal &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Mirchi Shimle Di Lyrics from Shimla Mirch</title>
+		<link>./../../../2020/01/02/mirchi-shimle-di-lyrics-from-shimla-mirch/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 02 Jan 2020 07:42:00 +0000</pubDate>
+				<category><![CDATA[hindi]]></category>
+		<category><![CDATA[khushboogrewal]]></category>
+		<category><![CDATA[kumaar]]></category>
+		<category><![CDATA[meetbros]]></category>
+		<category><![CDATA[meetbrosanjjan]]></category>
+		<category><![CDATA[sanjaymishra]]></category>
+		<guid isPermaLink="false">./../../../2020/01/02/mirchi-shimle-di-lyrics-from-shimla-mirch/index.html</guid>
+
+					<description><![CDATA[Mirchi Shimle Di Lyrics &#124; mangolyrics.com Mirchi Shimle Di Lyrics from Shimla Mirch is latest song sung by Meet Bros, Khushboo Grewal and Sanjay Mishra. Mirchi shimle di song lyrics are written by Kumaar while music is given by Meet Bros Anjjan. Song – Mirchi Shimle DiMovie – Shimla MirchSingers – Meet Bros, Khushboo Grewal, [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

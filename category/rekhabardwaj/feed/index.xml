@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rekhabardwaj &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Wed, 18 Mar 2020 20:27:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>rekhabardwaj &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>LAADKI LYRICS – ANGREZI MEDIUM</title>
+		<link>./../../../2020/03/18/laadki-lyrics-angrezi-medium/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 18 Mar 2020 20:27:00 +0000</pubDate>
+				<category><![CDATA[hindi]]></category>
+		<category><![CDATA[hindilyrics]]></category>
+		<category><![CDATA[priyasaraiya]]></category>
+		<category><![CDATA[rekhabardwaj]]></category>
+		<category><![CDATA[sachinjigar]]></category>
+		<guid isPermaLink="false">./../../../2020/03/18/laadki-lyrics-angrezi-medium/index.html</guid>
+
+					<description><![CDATA[LAADKI LYRICS – ANGREZI MEDIUM Laadki Lyrics from Angrezi Medium is latest Hindi song sung by Rekha Bhardwaj and Sachin-Jigar. Laadki song lyrics are written by Priya Saraiya and music is given by Sachin-Jigar. Laadki Song Detail Film/Album: Angrezi MediumLyrics by: Priya SaraiyaSinger: Rekha Bhardwaj, Sachin-JigarComposer: Sachin-Jigar Laadki – Rekha Bhardwaj Bachpan mein bachcha hamari [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

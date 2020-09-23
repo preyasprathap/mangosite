@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>patipatniaurwoh &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Sun, 05 Jan 2020 09:09:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>patipatniaurwoh &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>ANKHIYON SE GOLI MARE LYRICS &#8211; PATI PATNI AUR WOH</title>
+		<link>./../../../2020/01/05/ankhiyon-se-goli-mare-lyrics-pati-patni-aur-woh/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 05 Jan 2020 09:09:00 +0000</pubDate>
+				<category><![CDATA[hindi]]></category>
+		<category><![CDATA[hindilyrics]]></category>
+		<category><![CDATA[kartikaryan]]></category>
+		<category><![CDATA[mikasingh]]></category>
+		<category><![CDATA[patipatniaurwoh]]></category>
+		<category><![CDATA[shabbirahmed]]></category>
+		<category><![CDATA[tanishkbagchi]]></category>
+		<category><![CDATA[tulsikumar]]></category>
+		<guid isPermaLink="false">./../../../2020/01/05/ankhiyon-se-goli-mare-lyrics-pati-patni-aur-woh/index.html</guid>
+
+					<description><![CDATA[ANKHIYON SE GOLI MARE LYRICS &#8211; PATI PATNI AUR WOH&#160; Ankhiyon Se Goli Mare Lyrics from Pati Patni Aur Woh ft Kartik Aaryan is latest song sung by Mika Singh and Tulsi Kumar. Ankhiyon Se Goli Mare song lyrics are written by Shabbir Ahmed and music is given by Tanishk Bagchi. Ankhiyon Se Goli Mare [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

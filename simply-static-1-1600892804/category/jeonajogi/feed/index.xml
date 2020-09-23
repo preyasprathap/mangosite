@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jeonajogi &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Sun, 16 Feb 2020 09:33:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>jeonajogi &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>GRAARI LYRICS – HARMEET AULAKH</title>
+		<link>./../../../2020/02/16/graari-lyrics-harmeet-aulakh/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 16 Feb 2020 09:33:00 +0000</pubDate>
+				<category><![CDATA[gillraunta]]></category>
+		<category><![CDATA[harmeetaulakh]]></category>
+		<category><![CDATA[jeonajogi]]></category>
+		<category><![CDATA[laddigill]]></category>
+		<category><![CDATA[punjabi]]></category>
+		<category><![CDATA[punjabilyrics]]></category>
+		<guid isPermaLink="false">./../../../2020/02/16/graari-lyrics-harmeet-aulakh/index.html</guid>
+
+					<description><![CDATA[GRAARI LYRICS – HARMEET AULAKH Graari Lyrics by Harmeet Aulakh is latest Punjabi song with music given by Laddi Gill. Graari song lyrics are written by Gill Raunta and video is directed by Jeona-Jogi. Graari Song Detail Lyrics by: Gill RauntaSinger: Harmeet AulakhComposer: Laddi Gill Graari – Harmeet Aulakh Bad jehe gabru nu good kahda [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>nikk &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Tue, 14 Jan 2020 10:47:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>nikk &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>NAKHRE TERE LYRICS – Nikk</title>
+		<link>./../../../2020/01/14/nakhre-tere-lyrics-nikk/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 14 Jan 2020 10:47:00 +0000</pubDate>
+				<category><![CDATA[bangmusic]]></category>
+		<category><![CDATA[gaana]]></category>
+		<category><![CDATA[gaanaoriginals]]></category>
+		<category><![CDATA[nikk]]></category>
+		<category><![CDATA[punjabi]]></category>
+		<category><![CDATA[punjabilyrics]]></category>
+		<category><![CDATA[roxya]]></category>
+		<guid isPermaLink="false">./../../../2020/01/14/nakhre-tere-lyrics-nikk/index.html</guid>
+
+					<description><![CDATA[NAKHRE TERE LYRICS – Nikk Nakhre Tere Lyrics by Nikk is latest Punjabi song with music given by Rox-A. Nakhre tere song lyrics are written by Nikk and video is released by Bang Music. Nakhre Tere Song Detail Lyrics by: Nikk Singer: Nikk Composer: Rox-A Nakhre Tere – Nikk Kade aa chahidae, kade oh chahidae [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

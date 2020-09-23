@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>sufiyumsujathayum &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Wed, 23 Sep 2020 08:40:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>sufiyumsujathayum &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Vathikkalu Vellaripravu lyrics &#124; Sufiyum Sujatayum Malayalam movie</title>
+		<link>./../../../2020/07/13/vathikkalu-vellaripravu-lyrics-sufiyum-sujatayum-malayalam-movie/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 13 Jul 2020 12:58:00 +0000</pubDate>
+				<category><![CDATA[sufiyumsujathayum]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Song : Vathikkalu Vellaripravu Movie : Sufiyum Sujathayum Singer : Arjun Krishna, Nithya Mammen, Zia Ul Haq Music : M Jayachandran Lyrics : BK Harinarayanan Vathikkalu Vellaripravu lyrics&#160; Vaathilkkalu vellaripraavu vakkukondu muttanakettu vaathilkkal vellaripraavu vakkukondu muttanakettu thulliyaamennullilu vannu neeyaam kadalu priyane neeyaam kadalu Vaathilkkalu vellaripraavu vakkukondu muttanakettu Kaattupole vattam pidichu kannidayil mutham vachu swaasamaake thee [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Alhamdulillah Lyrics &#124; Sufiyum Sujathayum Malayalam Movie</title>
+		<link>./../../../2020/07/12/alhamdulillah-lyrics-sufiyum-sujathayum-malayalam-movie/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 12 Jul 2020 18:54:00 +0000</pubDate>
+				<category><![CDATA[sufiyumsujathayum]]></category>
+		<guid isPermaLink="false">./../../../2020/07/12/alhamdulillah-lyrics-sufiyum-sujathayum-malayalam-movie/index.html</guid>
+
+					<description><![CDATA[Alhamdulillah is the latest song from the movie Sufiyum Sujathayum the music is done by Sudeep Palanad Movie: Sufiyum Sujathayum Song: Alhamdulillah Singer: Sudeep Palanad &#38; Amrutha Suresh Music: Sudeep Palanad Lyrics: BK Harinarayanan Alhamdulillah Song Lyrics Alhamdulillah Othunnu Praanan Ee Janma Sookam Nee Thanna Dhaanam Mannodu Mannaayi Cherum Vare Nin Sangeethame Njaan Thoomangalaye Paarunnitha [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

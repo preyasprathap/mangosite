@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>addynagar &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Thu, 09 Jan 2020 14:30:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>addynagar &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>BAD BOY LYRICS &#8211; Addy Nagar</title>
+		<link>./../../../2020/01/09/bad-boy-lyrics-addy-nagar/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 09 Jan 2020 14:30:00 +0000</pubDate>
+				<category><![CDATA[addynagar]]></category>
+		<category><![CDATA[doctord]]></category>
+		<category><![CDATA[happykotbhai]]></category>
+		<category><![CDATA[punjabi]]></category>
+		<category><![CDATA[punjabilyrics]]></category>
+		<category><![CDATA[shataksharma]]></category>
+		<category><![CDATA[smrutijalpur]]></category>
+		<guid isPermaLink="false">./../../../2020/01/09/bad-boy-lyrics-addy-nagar/index.html</guid>
+
+					<description><![CDATA[BAD BOY LYRICS &#8211; Addy Nagar Bad Boy Lyrics by Addy Nagar and Smruti Jalpur is latest Punjabi song with music given by Shatak Sharma. Bad boy song lyrics are written by Happy Kotbhai and video is directed by Doctor D.Bad Boy Song DetailLyrics by: Happy KotbhaiSinger: Addy Nagar, Smruti JalpurComposer: Shatak Sharma &#160; &#160; [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>viswasam &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Wed, 23 Sep 2020 08:40:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>viswasam &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Kannana Kanney Song Lyrics &#8211; Viswasam Movie Song, Ajith Kumar</title>
+		<link>./../../../2020/07/15/kannana-kanney-song-lyrics-viswasam-movie-song-ajith-kumar/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 15 Jul 2020 18:45:00 +0000</pubDate>
+				<category><![CDATA[ajithkumar]]></category>
+		<category><![CDATA[viswasam]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Kannaana Kanney Lyrics from the movie Viswasam: The song is sung by Sid Sriram, Lyrics are Written by Thamarai and the Music was composed by D. Imman. Starring Ajith Kumar, Nayanathara. Song Title : Kannaana Kanney Vocals : Sid Sriram Songwriter : Thamarai Music : D. Imman Cast : Ajith Kumar, Nayanathara Album : Viswasam [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

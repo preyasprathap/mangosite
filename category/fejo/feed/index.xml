@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fejo &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Wed, 23 Sep 2020 08:40:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>fejo &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Fejo &#8211; Workil Aanu Karyam Lyrics ft MC Mushti [Prod. Ashkar Farzi]</title>
+		<link>./../../../2020/07/16/fejo-workil-aanu-karyam-lyrics-ft-mc-mushti-prod-ashkar-farzi/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 16 Jul 2020 11:06:00 +0000</pubDate>
+				<category><![CDATA[fejo]]></category>
+		<category><![CDATA[malayalamrap]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[&#8220;mallu rapper FEJO&#8217;s&#8221; latest Malayalam rap song ‘Workil Aanu Karyam’&#160; is a thrilling track.The artist has directed the music, penned its lyrics as well. Workil anu karyam Song Name : Workil Aanu Karyam Lyrics :&#160;Fejo , MC Mushti Singer(s): Fejo , MC Mushti Production : Ashkar Farzi Tharam thiruvukal&#160; Thala vena manushyar 2 mathram Aanum [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Aparaada Panka by Fejo Lyrics</title>
+		<link>./../../../2020/04/22/aparaada-panka-by-fejo-lyrics/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2020 14:11:00 +0000</pubDate>
+				<category><![CDATA[fejo]]></category>
+		<category><![CDATA[malayalam]]></category>
+		<category><![CDATA[malayalamrap]]></category>
+		<category><![CDATA[maradona]]></category>
+		<guid isPermaLink="false">./../../../2020/04/22/aparaada-panka-by-fejo-lyrics/index.html</guid>
+
+					<description><![CDATA[Aparaada Panka by Fejo Lyrics&#160; Aparaada Panka by Fejo Lyrics&#160; Aparaada Panka Tholettum Chanka Iru Meyy Manassu Onna Sheriya Kali Kettum Chorayaa Pukayum Cigarette&#8217;aa Gunadosham Venda Aniya (Yeah) Vaa Sancharichadam Ente Vazhiyiloode Chutti Karangidam Ee Naadin Idayiloode Karutha Kallu Vellum Karuthu Innum Undu Koode Manasil Pala Vicharam Ingane Urundu Koode Ninnu Kathi Chethana Neeridunnu Yadhana [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

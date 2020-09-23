@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vibhorparashar &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Wed, 08 Jan 2020 11:51:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>vibhorparashar &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>SUPERSTAR LYRICS – Neha Kakkar</title>
+		<link>./../../../2020/01/08/superstar-lyrics-neha-kakkar/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 08 Jan 2020 11:51:00 +0000</pubDate>
+				<category><![CDATA[adityadev]]></category>
+		<category><![CDATA[babbu]]></category>
+		<category><![CDATA[nehakakkar]]></category>
+		<category><![CDATA[punjabi]]></category>
+		<category><![CDATA[punjabilyrics]]></category>
+		<category><![CDATA[sarmadqadeer]]></category>
+		<category><![CDATA[superstar]]></category>
+		<category><![CDATA[vibhorparashar]]></category>
+		<guid isPermaLink="false">./../../../2020/01/08/superstar-lyrics-neha-kakkar/index.html</guid>
+
+					<description><![CDATA[SUPERSTAR LYRICS – Neha Kakkar Superstar Lyrics by Neha Kakkar and Vibhor Parashar is Punjabi song ft Riyaz Aly and Anushka Sen. Superstar song lyrics are written by Babbu and Sarmad Qadeer and music is given by Aditya Dev and Sarmad Qadeer. Superstar Song Detail Lyrics by: Babbu, Sarmad Qadeer Singer: Neha Kakkar, Vibhor Parashar [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

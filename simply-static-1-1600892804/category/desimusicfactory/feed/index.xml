@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>desimusicfactory &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Tue, 11 Feb 2020 15:45:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>desimusicfactory &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>GOA BEACH LYRICS – TONY KAKKAR</title>
+		<link>./../../../2020/02/11/goa-beach-lyrics-tony-kakkar/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 11 Feb 2020 15:45:00 +0000</pubDate>
+				<category><![CDATA[desimusicfactory]]></category>
+		<category><![CDATA[hindi]]></category>
+		<category><![CDATA[hindilyrics]]></category>
+		<category><![CDATA[nehakakkar]]></category>
+		<category><![CDATA[tonykakkar]]></category>
+		<guid isPermaLink="false">./../../../2020/02/11/goa-beach-lyrics-tony-kakkar/index.html</guid>
+
+					<description><![CDATA[GOA BEACH LYRICS – TONY KAKKAR Goa Beach Lyrics by Tony Kakkar and Neha Kakkar is latest Hindi song sung by them. Goa Beach song lyrics are written by Tony Kakkar who has also given its music. Goa Beach Song DetailLyrics by: Tony KakkarSinger: Tony Kakkar, Neha KakkarComposer: Tony Kakkar Goa Beach – Tony Kakkar [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

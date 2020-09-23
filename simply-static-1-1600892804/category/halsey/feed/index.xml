@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>halsey &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Wed, 23 Sep 2020 08:40:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>halsey &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Marshmello &#038; Halsey &#8211; Be Kind Lyrics &#124; mangolyrics.com</title>
+		<link>./../../../2020/07/18/marshmello-halsey-be-kind-lyrics-mangolyrics-com/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 18 Jul 2020 10:28:00 +0000</pubDate>
+				<category><![CDATA[halsey]]></category>
+		<category><![CDATA[marshmellow]]></category>
+		<guid isPermaLink="false"></guid>
+
+					<description><![CDATA[Be Kind Lyrics [Verse 1: Halsey]Wanna believe, wanna believeThat you don&#8217;t have a bad bone in your bodyBut the bruises on your ego make you go wild, wild, wild, yeahWanna believe, wanna believeThat even when you&#8217;re stone cold, you&#8217;re sorryTell me why you gotta be so outta your mind, yeah [Pre-Chorus: Halsey]I know you&#8217;re chokin&#8217; on your fearsAlready told [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

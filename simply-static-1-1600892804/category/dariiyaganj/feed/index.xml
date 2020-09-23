@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dariiyaganj &#8211; mangolyrics</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>A genuine lyrics site</description>
+	<lastBuildDate>Sat, 04 Jan 2020 21:11:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2020/09/cropped-mango_lyrics_favicon.ico-32x32.png</url>
+	<title>dariiyaganj &#8211; mangolyrics</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Daryaganj LYRICS – Jai Mummy Di &#124; Arijit Singh</title>
+		<link>./../../../2020/01/04/daryaganj-lyrics-jai-mummy-di-arijit-singh/index.html</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 04 Jan 2020 21:11:00 +0000</pubDate>
+				<category><![CDATA[amartyaboborahut]]></category>
+		<category><![CDATA[arijitsingh]]></category>
+		<category><![CDATA[dariiyaganj]]></category>
+		<category><![CDATA[dhvanibhanushali]]></category>
+		<category><![CDATA[hindi]]></category>
+		<category><![CDATA[hindilyrics]]></category>
+		<category><![CDATA[jaimummydi]]></category>
+		<category><![CDATA[siddhantkaushal]]></category>
+		<guid isPermaLink="false">./../../../2020/01/04/daryaganj-lyrics-jai-mummy-di-arijit-singh/index.html</guid>
+
+					<description><![CDATA[Daryaganj LYRICS – Jai Mummy Di &#124; Arijit Singh &#124; mangolyrics.com Film/Album:&#160;Jai Mummy Di Lyrics by: Siddhant Kaushal Singer: Arijit Singh, Dhvani Bhanushali Composer: Amartya Bobo Rahut Daryaganj – Arijit Singh Rang biranga dil hoya Black n white ve Kalleyan khada hai Jaake sadkon pe night mein Rang biranga dil hoya Black n white ve [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
